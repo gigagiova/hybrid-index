@@ -36,7 +36,7 @@ await index.add([
 Finally, we can **search** the index specifying the query and the number of results to retrieve (in our case 3):
 
 ```python
-results = await index.query('What are largest land animals on Earth?', 3)
+results = await index.query('What are the largest land animals on Earth?', 3)
 ```
 
 The above code returns a list of the top 3 ids **ordered by similarity**:
