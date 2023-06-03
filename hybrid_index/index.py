@@ -227,9 +227,6 @@ class HybridIndex:
         # Deserializes the faiss index
         data['semantic_index'] = faiss.deserialize_index(data['semantic_index'])
 
-        # Sets the api key
-        openai.api_key = data['openai_key']
-
         instance = cls.__new__(cls)
         instance.__dict__.update(data)
         return instance
