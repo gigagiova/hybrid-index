@@ -11,6 +11,8 @@ With HybridIndex, you can build LLM-powered apps without the headaches of mainta
 
 `pip install hybrid-index`
 
+<br>
+
 # 📙 Usage
 
 To use the index, first create a new instance and provide it with a **name** and an **openai key** (to embed the documents).
@@ -78,7 +80,8 @@ index = HybridIndex('name', 'your-openai-key', a=0.6)
 
 Finally, the top n results are returned to the user.
 
+<br>
 
-## 🪪 License
+# 🪪 License
 
 HybridIndex is licensed under the MIT License. See the LICENSE file for more details.
